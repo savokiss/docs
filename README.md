@@ -1,2 +1,1 @@
-# docs
-personal docs
+# just docs
