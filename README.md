@@ -1,4 +1,3 @@
 # Some docs
 
-# TOC
-- [Git Commit Message Style Guide](/docs/git)
+see [http://savokiss.me/docs](http://savokiss.me/docs)
