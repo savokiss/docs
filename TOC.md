@@ -9,3 +9,10 @@
 - [Snippets](/docs/snippets/javascript)
   - [JavaScript](/docs/snippets/javascript)
   - [CSS](/docs/snippets/css)
+
+- [Websites](/docs/websites/tools)
+  - [Tools](/docs/websites/tools)
+  - [Cheatsheets](/docs/websites/cheatsheets)
+
+- [Repos](/docs/repos/awesomes)
+  - [Awesomes](/docs/repos/awesomes)

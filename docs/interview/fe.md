@@ -1,4 +1,4 @@
-# 前端面试题
+# Frontend 前端面试题
 - 简单直接，适合口述答题
 - 部分摘自 [30 secondsOfCode](https://30secondsofcode.org/)
 
