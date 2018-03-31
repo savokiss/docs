@@ -5,3 +5,6 @@
 
 - [Interview](/docs/interview/fe)
   - [Frontend Interview](/docs/interview/fe)
+
+- [Snippets](/docs/snippets/javascript)
+  - [JavaScript](/docs/snippets/javascript)
