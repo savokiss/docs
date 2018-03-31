@@ -8,3 +8,4 @@
 
 - [Snippets](/docs/snippets/javascript)
   - [JavaScript](/docs/snippets/javascript)
+  - [CSS](/docs/snippets/css)
