@@ -1,7 +1,7 @@
 
-- [Style Guide](/docs/git)
-  - [Git Commit Message Style Guide](/docs/git)
-  - [Vue Style Guide](/docs/vue)
+- [Style Guide](/docs/style-guide/git)
+  - [Git Commit Message Style Guide](/docs/style-guide/git)
+  - [Vue Style Guide](/docs/style-guide/vue)
 
-- [Interview](/docs/interview)
-  - [Frontend Interview](/docs/interview)
+- [Interview](/docs/interview/fe)
+  - [Frontend Interview](/docs/interview/fe)
