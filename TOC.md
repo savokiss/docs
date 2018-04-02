@@ -12,6 +12,8 @@
 
 - [Websites](/docs/websites/tools)
   - [Tools](/docs/websites/tools)
+  - [Blogs](/docs/websites/blogs)
+  - [Discovery](/docs/websites/discovery)
   - [Cheatsheets](/docs/websites/cheatsheets)
 
 - [Repos](/docs/repos/awesomes)

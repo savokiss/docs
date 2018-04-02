@@ -5,6 +5,7 @@
 - [Awesomes.cn](https://www.awesomes.cn/) - 国人做的开源流行项目网站
 
 ## 速查
+- [Devdocs](http://devdocs.io)
 - [Node Green](https://node.green/) - node语法兼容情况
 
 ## 开发辅助
@@ -19,6 +20,6 @@
 - [Cubic Bezier Generator](http://cubic-bezier.com/#.17,.67,.83,.67) - 贝塞尔曲线生成器
 
 ## 在线代码执行
-- [codepen](https://codepen.io/) - 主要是 CSS 代码
+- [Codepen](https://codepen.io/) - 主要是 CSS 代码
 - [JSBin](http://jsbin.com/) - 在线 JS 代码运行
-- [repl.it](https://repl.it/) - 新出的在线代码运行工具
+- [Repl.it](https://repl.it/) - 新出的在线代码运行工具

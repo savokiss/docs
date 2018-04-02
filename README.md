@@ -4,6 +4,7 @@ see [http://savokiss.me/docs](http://savokiss.me/docs)
 
 ## Table Of Contents
 
+
 - [Style Guide](/docs/style-guide/git)
   - [Git Commit Message Style Guide](/docs/style-guide/git)
   - [Vue Style Guide](/docs/style-guide/vue)
@@ -17,6 +18,8 @@ see [http://savokiss.me/docs](http://savokiss.me/docs)
 
 - [Websites](/docs/websites/tools)
   - [Tools](/docs/websites/tools)
+  - [Blogs](/docs/websites/blogs)
+  - [Discovery](/docs/websites/discovery)
   - [Cheatsheets](/docs/websites/cheatsheets)
 
 - [Repos](/docs/repos/awesomes)
