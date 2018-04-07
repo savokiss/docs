@@ -15,6 +15,7 @@
   - [Blogs](/docs/websites/blogs)
   - [Discovery](/docs/websites/discovery)
   - [Cheatsheets](/docs/websites/cheatsheets)
+  - [Books](/docs/websites/books)
 
 - [Repos](/docs/repos/awesomes)
   - [Awesomes](/docs/repos/awesomes)
