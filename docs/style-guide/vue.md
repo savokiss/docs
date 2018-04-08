@@ -1,7 +1,14 @@
 # Vue Style Guide
 
-## Introduction
+## 官方风格指南
 
 主要用于统一 Vue 代码风格
 
-详细可参考官方风格指南：[https://cn.vuejs.org/v2/style-guide/](https://cn.vuejs.org/v2/style-guide/)
+> see: [https://cn.vuejs.org/v2/style-guide/](https://cn.vuejs.org/v2/style-guide/)
+
+
+## 笔者最佳实践
+
+笔者个人总结的一些 Vue 的最佳实践
+
+> see: http://savokiss.me/vue-better-practices
