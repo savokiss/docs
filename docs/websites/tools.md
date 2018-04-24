@@ -22,4 +22,5 @@
 ## 在线代码执行
 - [Codepen](https://codepen.io/) - 主要是 CSS 代码
 - [JSBin](http://jsbin.com/) - 在线 JS 代码运行
+- [JSFiddle](https://jsfiddle.net/) - 在线代码运行 支持Vue、SF内嵌
 - [Repl.it](https://repl.it/) - 新出的在线代码运行工具
