@@ -4,11 +4,11 @@
   "description": "personal docs",
   "main": "config.js",
   "directories": {
-    "doc": "docs",
-    "docs:build": "vuepress build docs"
+    "doc": "docs"
   },
   "scripts": {
-    "dev": "vuepress dev"
+    "dev": "vuepress dev",
+    "docs:build": "vuepress build docs"
   },
   "repository": {
     "type": "git",
