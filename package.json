@@ -1,10 +1,11 @@
 {
   "name": "docs",
   "version": "1.0.0",
-  "description": "see [http://savokiss.me/docs](http://savokiss.me/docs)",
+  "description": "personal docs",
   "main": "config.js",
   "directories": {
-    "doc": "docs"
+    "doc": "docs",
+    "docs:build": "vuepress build docs"
   },
   "scripts": {
     "dev": "vuepress dev"
@@ -18,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/savokiss/docs/issues"
   },
-  "homepage": "https://github.com/savokiss/docs#readme"
+  "homepage": "https://github.com/savokiss/docs#readme",
+  "dependencies": {
+    "vuepress": "^0.8.4"
+  }
 }
