@@ -1,4 +1,3 @@
-
 # Git Commit Message Style Guide
 ## Introduction
 

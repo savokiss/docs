@@ -1,4 +1,4 @@
-# Blogs 官方技术博客 && 技术网站
+# Blogs 技术博客 && 网站
 
 ## 国外大站
 - [CSS-Tricks](https://css-tricks.com/)

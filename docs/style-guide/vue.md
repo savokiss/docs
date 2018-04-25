@@ -11,4 +11,4 @@
 
 笔者个人总结的一些 Vue 的最佳实践
 
-> see: http://savokiss.me/vue-better-practices
+> see: [http://savokiss.me/vue-better-practices](http://savokiss.me/vue-better-practices)

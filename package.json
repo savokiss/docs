@@ -1,0 +1,22 @@
+{
+  "name": "docs",
+  "version": "1.0.0",
+  "description": "see [http://savokiss.me/docs](http://savokiss.me/docs)",
+  "main": "config.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "dev": "vuepress dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/savokiss/docs.git"
+  },
+  "author": "savokiss",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/savokiss/docs/issues"
+  },
+  "homepage": "https://github.com/savokiss/docs#readme"
+}
