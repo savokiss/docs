@@ -24,3 +24,13 @@
 - [JSBin](http://jsbin.com/) - 在线 JS 代码运行
 - [JSFiddle](https://jsfiddle.net/) - 在线代码运行 支持Vue、SF内嵌
 - [Repl.it](https://repl.it/) - 新出的在线代码运行工具
+
+## 在线IDE
+- [coding ide](https://ide.coding.net) - coding.net 在线ide
+- [c9.io](https://c9.io) - 老牌的在线ide
+
+## 在线脑图
+- [Processon](https://www.processon.com/i/53d0ac900cf27d6e7f407e07) - 全能的在线脑图、流程图
+
+## 持续集成
+- [Netlify](https://www.netlify.com/) - 免费好用的持续集成工具

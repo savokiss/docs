@@ -1,4 +1,4 @@
-# Discovery 好东西的地方
+# Discovery 发现好东西
 
 ## 发现新项目
 - [Best Of JS](https://stats.js.org/) - 流行的 JS 库

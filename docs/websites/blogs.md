@@ -2,6 +2,11 @@
 
 ## 国外大站
 - [CSS-Tricks](https://css-tricks.com/)
+- [SitePoint](https://www.sitepoint.com/)
+
+## 培训教程
+- [Scotch.io](https://scotch.io/)
+- [Egghead.io](https://egghead.io/)
 
 ## 国内大厂
 - [淘宝FED](http://taobaofed.org/)
