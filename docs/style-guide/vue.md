@@ -4,11 +4,11 @@
 
 主要用于统一 Vue 代码风格
 
-> see: [https://cn.vuejs.org/v2/style-guide/](https://cn.vuejs.org/v2/style-guide/)
+> see: <https://cn.vuejs.org/v2/style-guide/>
 
 
 ## 笔者最佳实践
 
 笔者个人总结的一些 Vue 的最佳实践
 
-> see: [http://savokiss.me/vue-better-practices](http://savokiss.me/vue-better-practices)
+> see: <http://vue-better-practices.savokiss.me/>
