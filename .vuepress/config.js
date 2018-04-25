@@ -7,7 +7,7 @@ module.exports = {
     // docsDir: 'docs',
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Vue Best Practices', link: 'http://savokiss.me/vue-better-practices/' }
+      { text: 'Vue Best Practices', link: 'http://vue-better-practices.savokiss.me' }
     ],
     sidebar: [
       {
