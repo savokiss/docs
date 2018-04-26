@@ -26,11 +26,12 @@
 - [Repl.it](https://repl.it/) - 新出的在线代码运行工具
 
 ## 在线IDE
-- [coding ide](https://ide.coding.net) - coding.net 在线ide
-- [c9.io](https://c9.io) - 老牌的在线ide
+- [Coding studio](https://studio.coding.net) - coding.net 在线ide
+- [C9.io](https://c9.io) - 老牌的在线ide
 
 ## 在线脑图
 - [Processon](https://www.processon.com/i/53d0ac900cf27d6e7f407e07) - 全能的在线脑图、流程图
 
 ## 持续集成
 - [Netlify](https://www.netlify.com/) - 免费好用的持续集成工具
+- [Now](https://zeit.co/now) - Node.js App 部署
