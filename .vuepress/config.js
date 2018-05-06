@@ -4,6 +4,7 @@ module.exports = {
   ga: 'UA-118078150-1',
   serviceWorker: true,
   head: [
+    ['link', { rel: 'icon', href: `/logo.png` }],
     ['link', { rel: 'manifest', href: '/manifest.json' }]
   ],
   themeConfig: {
