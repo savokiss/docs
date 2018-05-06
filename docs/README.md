@@ -1,3 +1,10 @@
+---
+home: true
+actionText: 快速上手 →
+actionLink: /docs/
+footer: MIT Licensed | Copyright © 2018-present savokiss
+---
+
 # TOC
 ## Style Guide
   - [Git Commit Message Style Guide](/docs/style-guide/git.md)

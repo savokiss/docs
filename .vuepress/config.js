@@ -3,6 +3,9 @@ module.exports = {
   description: 'Just personal docs',
   ga: 'UA-118078150-1',
   serviceWorker: true,
+  head: [
+    ['link', { rel: 'manifest', href: '/manifest.json' }]
+  ],
   themeConfig: {
     repo: 'savokiss/docs',
     // docsDir: 'docs',
