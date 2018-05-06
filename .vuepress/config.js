@@ -2,6 +2,7 @@ module.exports = {
   title: 'docs',
   description: 'Just personal docs',
   ga: 'UA-118078150-1',
+  serviceWorker: true,
   themeConfig: {
     repo: 'savokiss/docs',
     // docsDir: 'docs',
