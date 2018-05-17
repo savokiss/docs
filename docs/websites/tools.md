@@ -38,3 +38,7 @@
 
 ## 网站流量
 - [SimilarWeb](https://www.similarweb.com)
+
+## 杂项
+- [SpeedTest](http://www.speedtest.net) - 网速测试
+- [Ping.pe](http://ping.pe/) - 服务器被墙测试
