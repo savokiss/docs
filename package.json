@@ -7,8 +7,8 @@
     "doc": "docs"
   },
   "scripts": {
-    "docs": "vuepress dev",
-    "docs:build": "vuepress build"
+    "docs": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
   },
   "repository": {
     "type": "git",

@@ -2,7 +2,7 @@ module.exports = {
   title: 'docs',
   description: 'Just personal docs',
   ga: 'UA-118078150-1',
-  serviceWorker: true,
+  // serviceWorker: true,
   head: [
     ['link', { rel: 'icon', href: `/logo.png` }],
     ['link', { rel: 'manifest', href: '/manifest.json' }],
@@ -11,7 +11,7 @@ module.exports = {
   ],
   themeConfig: {
     repo: 'savokiss/docs',
-    // docsDir: 'docs',
+    docsDir: 'docs',
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Vue Best Practices', link: 'https://vue-better-practices.savokiss.me' }
@@ -20,32 +20,32 @@ module.exports = {
       {
         title: 'Style Guide',
         children: [
-          '/docs/style-guide/git',
-          '/docs/style-guide/vue'
+          '/style-guide/git',
+          '/style-guide/vue'
         ]
       },
       {
         title: 'Interview',
         children: [
-          '/docs/interview/fe'
+          '/interview/fe'
         ]
       },
       {
         title: 'Snippets',
         children: [
-          '/docs/snippets/javascript',
-          '/docs/snippets/css'
+          '/snippets/javascript',
+          '/snippets/css'
         ]
       },
       {
         title: 'Websites',
         children: [
-          '/docs/websites/blogs',
-          '/docs/websites/books',
-          '/docs/websites/cheatsheets',
-          '/docs/websites/coding',
-          '/docs/websites/discovery',
-          '/docs/websites/tools'
+          '/websites/blogs',
+          '/websites/books',
+          '/websites/cheatsheets',
+          '/websites/coding',
+          '/websites/discovery',
+          '/websites/tools'
         ]
       }
     ]

@@ -1,29 +1,29 @@
 ---
 home: true
 actionText: 快速上手 →
-actionLink: /docs/
+actionLink: /style-guide/git.md
 footer: MIT Licensed | Copyright © 2018-present savokiss
 ---
 
 # TOC
 ## Style Guide
-  - [Git Commit Message Style Guide](/docs/style-guide/git.md)
-  - [Vue Style Guide](/docs/style-guide/vue.md)
+  - [Git Commit Message Style Guide](/style-guide/git.md)
+  - [Vue Style Guide](/style-guide/vue.md)
 
 ## Interview
-  - [Frontend Interview](/docs/interview/fe.md)
+  - [Frontend Interview](/interview/fe.md)
 
 ## Snippets
-  - [JavaScript](/docs/snippets/javascript.md)
-  - [CSS](/docs/snippets/css.md)
+  - [JavaScript](/snippets/javascript.md)
+  - [CSS](/snippets/css.md)
 
 ## Websites
-  - [Tools](/docs/websites/tools.md)
-  - [Blogs](/docs/websites/blogs.md)
-  - [Discovery](/docs/websites/discovery.md)
-  - [Cheatsheets](/docs/websites/cheatsheets.md)
-  - [Books](/docs/websites/books.md)
-  - [Coding](/docs/websites/coding.md)
+  - [Tools](/websites/tools.md)
+  - [Blogs](/websites/blogs.md)
+  - [Discovery](/websites/discovery.md)
+  - [Cheatsheets](/websites/cheatsheets.md)
+  - [Books](/websites/books.md)
+  - [Coding](/websites/coding.md)
 
 ## Repos
-  - [Awesomes](/docs/repos/awesomes.md)
+  - [Awesomes](/repos/awesomes.md)
