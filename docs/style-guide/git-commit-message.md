@@ -1,11 +1,12 @@
 # Git Commit Message Style Guide
-## Introduction
 
-此文档旨在规范git版本管理 参考自 udacity 规范：
+## 介绍
+
+此文档旨在规范 git 版本管理 参考自 udacity 规范：
 
 [https://udacity.github.io/git-styleguide/](https://udacity.github.io/git-styleguide/)
 
-## Commit Messages
+## 提交信息
 
 ### Message Structure
 git 的 commit messages 由以下三部分组成，`title`, 可选的 `body`，可选的 `footer`，如：
@@ -29,6 +30,7 @@ footer
 - refactor: 重构生产环境代码
 - test: 添加测试、重构测试等，(没有生产环境代码变更)
 - chore: 修改构建任务、包管理器配置等，(没有生产环境代码变更) 
+- deploy: 部署相关，跟上环境和版本号
 
 ### The Subject
 

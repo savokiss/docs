@@ -20,7 +20,9 @@ module.exports = {
       {
         title: 'Style Guide',
         children: [
-          '/style-guide/git',
+          '/style-guide/git-commit-message',
+          '/style-guide/git-branching',
+          '/style-guide/git-tagging',
           '/style-guide/vue'
         ]
       },

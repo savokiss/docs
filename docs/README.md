@@ -1,13 +1,13 @@
 ---
 home: true
 actionText: 快速上手 →
-actionLink: /style-guide/git.md
+actionLink: /style-guide/git-commit-message.md
 footer: MIT Licensed | Copyright © 2018-present savokiss
 ---
 
 # TOC
 ## Style Guide
-  - [Git Commit Message Style Guide](/style-guide/git.md)
+  - [Git Commit Message Style Guide](/style-guide/git-commit-message.md)
   - [Vue Style Guide](/style-guide/vue.md)
 
 ## Interview
