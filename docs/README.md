@@ -8,6 +8,7 @@ footer: MIT Licensed | Copyright © 2018-present savokiss
 # TOC
 ## Style Guide
   - [Git Commit Message Style Guide](/style-guide/git-commit-message.md)
+  - [Git Branching Style Guide](/style-guide/git-branching.md)
   - [Vue Style Guide](/style-guide/vue.md)
 
 ## Interview
