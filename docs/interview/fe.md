@@ -11,6 +11,13 @@ export function isArray (arr) {
 }
 ```
 
+### 如何判断一个对象是不是 promise
+```javascript
+export function isPromise (val) {
+  return val && typeof val.then === 'function'
+}
+```
+
 ### 实现一个 padZero 方法，输入一个月中的某一天 1-31，输出补 0 后的 01-31
 ```javascript
 /**
@@ -30,7 +37,7 @@ export function padZero (n) {
 ```javascript
 Math.pow(2,10) - Math.pow(10,3) === 24
 
-(10-3)*2 + 10 === 24
+(10 - 3) * 2 + 10 === 24
 ```
 
 
