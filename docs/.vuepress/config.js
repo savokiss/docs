@@ -47,7 +47,8 @@ module.exports = {
           '/websites/cheatsheets',
           '/websites/coding',
           '/websites/discovery',
-          '/websites/tools'
+          '/websites/tools',
+          '/websites/tutorials'
         ]
       }
     ]

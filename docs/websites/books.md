@@ -7,6 +7,8 @@
 - [Google Devtools Overview](https://developer.chrome.com/devtools)
 - [阮一峰的 ECMAScript 6](http://es6.ruanyifeng.com)
 - [阮一峰的 JavaScript 标准参考教程](http://javascript.ruanyifeng.com/)
+- [JS Modules](http://jsmodules.io/)
+- [Exploring JS](http://exploringjs.com)
 
 ## Git
 - [GitHowTo.com](https://githowto.com)
