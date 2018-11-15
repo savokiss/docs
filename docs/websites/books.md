@@ -20,6 +20,7 @@
 ## Vue
 - [逐行级别的源码分析](https://github.com/HcySunYang/vue-design)
 - [剖析Vue.js内部运行机制](https://github.com/answershuto/learnVue)
+- [Vue.js 源码揭秘](https://github.com/ustbhuangyi/vue-analysis)
 
 ## Git
 - [GitHowTo.com](https://githowto.com)
