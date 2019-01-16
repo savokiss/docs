@@ -18,6 +18,7 @@
 - [RegExr](https://regexr.com/) - 又一个正则表达式可视化
 - [Box Shadow Generator](https://cssgenerator.org/box-shadow-css-generator.html) - CSS 阴影生成器
 - [Cubic Bezier Generator](http://cubic-bezier.com/#.17,.67,.83,.67) - 贝塞尔曲线生成器
+- [Flexbox Playground](https://demos.scotch.io/visual-guide-to-css3-flexbox-flexbox-playground/demos/) - flexbox在线演示
 
 ## 在线代码执行
 - [Codepen](https://codepen.io/) - 主要是 CSS 代码

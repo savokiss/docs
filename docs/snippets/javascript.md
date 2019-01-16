@@ -151,6 +151,7 @@ function parseUrlQuery() {
   return b
 }
 ```
+
 ### 切换全屏
 see [stackoverflow](http://stackoverflow.com/a/10627148)
 ```javascript
@@ -174,6 +175,29 @@ function toggleFullScreen() {
      }  
    }  
 }
+```
+
+### Symbol 简易实现
+- 摘自微信小游戏模板项目
+
+```javascript
+/**
+ * 对于ES6中Symbol的极简兼容
+ * 方便模拟私有变量
+ */
+
+let Symbol  = window.Symbol
+let idCounter = 0
+
+if (!Symbol) {
+  Symbol = function Symbol(key) {
+    return `__${key}_${Math.floor(Math.random() * 1e9)}_${++idCounter}__`
+  }
+
+  Symbol.iterator = Symbol('Symbol.iterator')
+}
+
+window.Symbol = Symbol
 ```
 
 ## Node.js 相关
