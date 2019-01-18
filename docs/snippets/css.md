@@ -30,6 +30,7 @@ see [30s of css](https://atomiks.github.io/30-seconds-of-css/#truncate-text)
 ### 文字在第n行缩略显示
 - 只支持 WebKit/Blink 内核
 - see [css-tricks](https://css-tricks.com/line-clampin/)
+- 兼容性: [can i use](https://caniuse.com/#search=line-clamp)
 
 ```css
 .line-clamp {
