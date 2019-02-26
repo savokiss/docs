@@ -29,7 +29,8 @@ module.exports = {
       {
         title: 'Interview',
         children: [
-          '/interview/fe'
+          '/interview/fe',
+          '/interview/vue'
         ]
       },
       {
