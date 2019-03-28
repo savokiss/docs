@@ -40,6 +40,25 @@ Math.pow(2,10) - Math.pow(10,3) === 24
 (10 - 3) * 2 + 10 === 24
 ```
 
+### 实现一个偏函数
+```javascript
+// 已知函数 add
+function add (x, y) {
+  return x + y
+}
+// 实现一个函数 addTwo
+let addTwo = add.bind(this, 2)
+
+addTwo(3) // 5
+addTwo(10) // 12
+```
+
+### 使用 apply 实现 bind 方法
+```javascript
+function bind(fn, context) {
+  return (...args) => fn.apply(context, args)
+}
+```
 
 ## 正则相关
 ### 写一个函数，输入一个英文单词，输出该单词的首字母大写形式
