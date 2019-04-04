@@ -74,6 +74,23 @@ Array.prototype.duplicator = function () {
 }
 ```
 
+### 如何实现以下函数
+```javascript
+add(2, 5); // 7
+add(2)(5); // 7
+
+function add(...args) {
+    let addX = add.bind(this, args[0])
+    let addY = add.bind(this, args[1])
+    addX.valueOf = () => args[0]
+    addY.valueOf = () => args[1]
+    if (args.length === 1) {
+        return addX
+    }
+    return addX + addY
+}
+```
+
 ## 正则相关
 ### 写一个函数，输入一个英文单词，输出该单词的首字母大写形式
 ```javascript
