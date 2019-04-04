@@ -60,6 +60,20 @@ function bind(fn, context) {
 }
 ```
 
+### 请实现以下 duplicator 方法
+[1,2,3,4,5].duplicator() // [1,2,3,4,5,1,2,3,4,5]
+
+```javascript
+// 返回新数组
+Array.prototype.duplicator = function () {
+  return this.concat(this)
+}
+// 更改原数组
+Array.prototype.duplicator = function () {
+  return Object.assign(this, this.concat(this))
+}
+```
+
 ## 正则相关
 ### 写一个函数，输入一个英文单词，输出该单词的首字母大写形式
 ```javascript
