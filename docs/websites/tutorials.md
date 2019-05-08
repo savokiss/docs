@@ -11,3 +11,6 @@
 ## 编码提升
 - [The 14 habits of highly effective developers (Part 1)](https://dev.to/pavlosisaris/how-to-transition-from-junior-to-mid-level-developer-part-1-4gig)
 - [The 14 habits of highly effective developers (Part 2)](https://dev.to/pavlosisaris/the-14-habits-of-highly-effective-developers-part-2-2io0)
+
+## 趣味教程
+- [Learn Git Branching](https://learngitbranching.js.org/)
