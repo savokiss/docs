@@ -107,6 +107,22 @@ export const hyphenate = cached((str) => {
 })
 ```
 
+### once
+```js
+/**
+ * Ensure a function is called only once.
+ */
+export function once (fn) {
+  let called = false
+  return function () {
+    if (!called) {
+      called = true
+      fn.apply(this, arguments)
+    }
+  }
+}
+```
+
 ## 日期相关
 ### 根据日期偏移量获取日期
 ```javascript
