@@ -70,6 +70,43 @@ export function deepCopy (obj, cache = []) {
 }
 ```
 
+### 缓存纯函数
+- from vue shared/util
+```js
+/**
+ * Create a cached version of a pure function.
+ * 只适用于缓存 接收一个字符串为参数的fn
+ */
+export function cached (fn) {
+  const cache = Object.create(null)
+  return function cachedFn (str) {
+    const hit = cache[str]
+    return hit || (cache[str] = fn(str))
+  }
+}
+// use cases
+/**
+ * Camelize a hyphen-delimited string.
+ */
+const camelizeRE = /-(\w)/g
+export const camelize = cached((str) => {
+  return str.replace(camelizeRE, (_, c) => c ? c.toUpperCase() : '')
+})
+/**
+ * Capitalize a string.
+ */
+export const capitalize = cached((str) => {
+  return str.charAt(0).toUpperCase() + str.slice(1)
+})
+/**
+ * Hyphenate a camelCase string.
+ */
+const hyphenateRE = /\B([A-Z])/g
+export const hyphenate = cached((str) => {
+  return str.replace(hyphenateRE, '-$1').toLowerCase()
+})
+```
+
 ## 日期相关
 ### 根据日期偏移量获取日期
 ```javascript
