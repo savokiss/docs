@@ -105,10 +105,10 @@ export function upperFirst (str) {
 }
 ```
 
-### 写一个函数，输入 2018-08-08, 输出 2018.08.08
+### 写一个函数，输入 2018.08.08, 输出 2018-08-08
 ```javascript
 export function replaceDate(dateStr) {
-  return dateStr.replace(/-/g, '.')
+  return dateStr.replace(/\./g, '-')
 }
 ```
 
