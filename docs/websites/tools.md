@@ -43,3 +43,6 @@
 ## 杂项
 - [SpeedTest](http://www.speedtest.net) - 网速测试
 - [Ping.pe](http://ping.pe/) - 服务器被墙测试
+
+## 安全
+- [VirusTotal](https://www.virustotal.com/) - 病毒文件检测
