@@ -16,3 +16,5 @@ selenium-debug.log
 *.sln
 
 .history
+
+package-lock.json

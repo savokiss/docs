@@ -21,6 +21,6 @@
   },
   "homepage": "https://github.com/savokiss/docs#readme",
   "dependencies": {
-    "vuepress": "^0.8.4"
+    "vuepress": "^1.2.0"
   }
 }

@@ -37,7 +37,8 @@ module.exports = {
         title: 'Snippets',
         children: [
           '/snippets/javascript',
-          '/snippets/css'
+          '/snippets/css',
+          '/snippets/algorithm'
         ]
       },
       {
