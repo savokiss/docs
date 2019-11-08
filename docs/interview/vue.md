@@ -1,6 +1,17 @@
 # Vue 相关面试题
 
-## Vue基础
+## Vue 基础
+### MVVM 是什么？
+Model View ViewModel
+- Model - `域模型` - JS 对象
+- View - `视图模板` - DOM
+- ViewModel - `视图的模型（为视图服务）` - Vue 实例
+
+数据驱动，操作数据就可以操作视图（无需操作 DOM）。
+
+ViewModel 作为中间的桥梁，Model 的更新会自动更新 View，反过来也一样。
+
+
 ### Vue 中组件间通信的方法
 1. 父到子
   - props (.sync 修饰符，是 `this.$emit('update:props', val)` 的语法糖)
@@ -23,3 +34,10 @@
 ### Vue Router 中的 mode 分别有几个值，有什么区别？
 三个。"hash" | "history" | "abstract"
 见<https://router.vuejs.org/zh/api/#mode>
+
+## Vue 进阶
+### Vue 中如何实现双向绑定？
+![](../assets/vue/vue-reactive.png)
+1. 使用 `Object.defineProperty` 进行数据劫持
+2. getter 中进行依赖收集
+3. setter 中定义响应式并且通知更新
