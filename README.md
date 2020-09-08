@@ -7,6 +7,12 @@
   - [Git Commit Message Style Guide](/docs/style-guide/git)
   - [Vue Style Guide](/docs/style-guide/vue)
 
+- [Git Flow](/docs/git-flow/github)
+  - [GitHub Flow](/docs/git-flow/github)
+  - [GitLab Version](/docs/git-flow/gitlab-version)
+  - [GitLab Continuous](/docs/git-flow/gitlab-continuous)
+  - [Git Flow](/docs/git-flow/git)
+
 - [Interview](/docs/interview/fe)
   - [Frontend Interview](/docs/interview/fe)
 
