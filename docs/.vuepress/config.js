@@ -27,6 +27,15 @@ module.exports = {
         ]
       },
       {
+        title: 'Git Flow',
+        children: [
+          '/git-flow/github',
+          '/git-flow/gitlab-version',
+          '/git-flow/gitlab-continuous',
+          '/git-flow/git'
+        ]
+      },
+      {
         title: 'Interview',
         children: [
           '/interview/fe',
