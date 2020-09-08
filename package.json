@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/savokiss/docs#readme",
   "dependencies": {
+    "@vuepress/plugin-google-analytics": "^1.5.4",
     "vuepress": "^1.5.4"
   }
 }

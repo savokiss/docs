@@ -1,7 +1,11 @@
 module.exports = {
   title: 'docs',
-  description: 'Just personal docs',
-  ga: 'UA-118078150-1',
+  description: 'Just some useful documents',
+  plugins: [
+    ['@vuepress/google-analytics', {
+      ga: 'UA-118078150-1'
+    }]
+  ],
   // serviceWorker: true,
   head: [
     ['link', { rel: 'icon', href: `/logo.png` }],
@@ -12,6 +16,7 @@ module.exports = {
   themeConfig: {
     repo: 'savokiss/docs',
     docsDir: 'docs',
+    lastUpdated: 'Last Updated',
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Vue Best Practices', link: 'https://vue-better-practice.savokiss.com' }
