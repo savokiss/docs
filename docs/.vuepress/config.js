@@ -52,7 +52,8 @@ module.exports = {
         children: [
           '/snippets/javascript',
           '/snippets/css',
-          '/snippets/algorithm'
+          '/snippets/algorithm',
+          '/snippets/vue'
         ]
       },
       {

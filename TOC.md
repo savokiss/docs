@@ -15,6 +15,7 @@
 - [Snippets](/docs/snippets/javascript)
   - [JavaScript](/docs/snippets/javascript)
   - [CSS](/docs/snippets/css)
+  - [Vue](/docs/snippets/vue)
 
 - [Websites](/docs/websites/tools)
   - [Tools](/docs/websites/tools)
