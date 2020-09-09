@@ -4,6 +4,12 @@ module.exports = {
   plugins: [
     ['@vuepress/google-analytics', {
       ga: 'UA-118078150-1'
+    }],
+    ['@vuepress/last-updated', {
+      dateOptions: {
+        hour12: false,
+        timeZone: 'Asia/Shanghai'
+      }
     }]
   ],
   // serviceWorker: true,
