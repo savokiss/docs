@@ -3,6 +3,7 @@
 ## JS基本操作
 
 ### 字符串repeat
+
 ```javascript
 function repeat (str, times) {
   return (new Array(times + 1)).join(str)
@@ -10,6 +11,7 @@ function repeat (str, times) {
 ```
 
 ### 数字前补0
+
 ```javascript
 function pad (num, maxLength) {
   return repeat('0', maxLength - num.toString().length) + num
@@ -17,6 +19,7 @@ function pad (num, maxLength) {
 ```
 
 ### 数组乱序
+
 ```javascript
 // in place
 export function shuffle(arr) {
@@ -31,7 +34,9 @@ export function shuffle(arr) {
 ```
 
 ### 深拷贝
+
 - from vuex utils
+
 ```javascript
 /**
  * Deep copy the given object considering circular structure.
@@ -71,7 +76,9 @@ export function deepCopy (obj, cache = []) {
 ```
 
 ### 缓存纯函数
+
 - from vue shared/util
+
 ```js
 /**
  * Create a cached version of a pure function.
@@ -108,6 +115,7 @@ export const hyphenate = cached((str) => {
 ```
 
 ### once
+
 ```js
 /**
  * Ensure a function is called only once.
@@ -124,7 +132,9 @@ export function once (fn) {
 ```
 
 ## 日期相关
+
 ### 根据日期偏移量获取日期
+
 ```javascript
 /**
  * jqueryui datepicker 的 string转日期
@@ -165,7 +175,9 @@ export function getOffsetDate (offset, date) {
 ```
 
 ### JS 实现多久以前
+
 see [vue-hackernews-2.0](https://github.com/vuejs/vue-hackernews-2.0/blob/master/src/util/filters.js)
+
 ```javascript
 export function timeAgo (time) {
   const between = Date.now() / 1000 - Number(time)
@@ -187,7 +199,9 @@ function pluralize (time, label) {
 ```
 
 ## 浏览器相关
+
 ### 解析 url query 为一个对象
+
 ```javascript
 function parseUrlQuery() {
   var a = window.location.search.substr(1).split('&')
@@ -206,31 +220,34 @@ function parseUrlQuery() {
 ```
 
 ### 切换全屏
+
 see [stackoverflow](http://stackoverflow.com/a/10627148)
+
 ```javascript
 function toggleFullScreen() {
-   if ((document.fullScreenElement && document.fullScreenElement !== null) ||    
+   if ((document.fullScreenElement && document.fullScreenElement !== null) ||
    (!document.mozFullScreen && !document.webkitIsFullScreen)) {
-     if (document.documentElement.requestFullScreen) {  
+     if (document.documentElement.requestFullScreen) {
        document.documentElement.requestFullScreen()
-     } else if (document.documentElement.mozRequestFullScreen) {  
+     } else if (document.documentElement.mozRequestFullScreen) {
        document.documentElement.mozRequestFullScreen()
-     } else if (document.documentElement.webkitRequestFullScreen) {  
+     } else if (document.documentElement.webkitRequestFullScreen) {
        document.documentElement.webkitRequestFullScreen(Element.ALLOW_KEYBOARD_INPUT)
-     }  
-   } else {  
-     if (document.cancelFullScreen) {  
+     }
+   } else {
+     if (document.cancelFullScreen) {
        document.cancelFullScreen()
-     } else if (document.mozCancelFullScreen) {  
+     } else if (document.mozCancelFullScreen) {
        document.mozCancelFullScreen()
-     } else if (document.webkitCancelFullScreen) {  
+     } else if (document.webkitCancelFullScreen) {
        document.webkitCancelFullScreen()
-     }  
-   }  
+     }
+   }
 }
 ```
 
 ### Symbol 简易实现
+
 - 摘自微信小游戏模板项目
 
 ```javascript
@@ -254,7 +271,9 @@ window.Symbol = Symbol
 ```
 
 ## Node.js 相关
+
 ### 获取本机IP地址
+
 ```javascript
 function getIPAddress(){
   var interfaces = require('os').networkInterfaces()
@@ -266,6 +285,46 @@ function getIPAddress(){
          return alias.address
        }
     }
+  }
+}
+```
+
+## 工具函数
+
+```javascript
+// copied from uni-app shared/color.js
+export function hexToRgba (hex) {
+  let r
+  let g
+  let b
+  hex = hex.replace('#', '')
+  if (hex.length === 6) {
+    r = hex.substring(0, 2)
+    g = hex.substring(2, 4)
+    b = hex.substring(4, 6)
+  } else if (hex.length === 3) {
+    r = hex.substring(0, 1)
+    g = hex.substring(1, 2)
+    b = hex.substring(2, 3)
+  } else {
+    return false
+  }
+  if (r.length === 1) {
+    r += r
+  }
+  if (g.length === 1) {
+    g += g
+  }
+  if (b.length === 1) {
+    b += b
+  }
+  r = parseInt(r, 16)
+  g = parseInt(g, 16)
+  b = parseInt(b, 16)
+  return {
+    r,
+    g,
+    b
   }
 }
 ```
