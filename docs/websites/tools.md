@@ -69,3 +69,8 @@
 
 ## 数字货币
 - [BitPay Address Translator](https://bitpay.github.io/address-translator/) - BitPay 的 BCH 钱包地址转换工具
+
+## 数字货币交易所
+- [币安](https://accounts.binancezh.be/cn/register?ref=12087358) - 国产，目前世界排名第一的交易所
+- [BigOne](https://bigonechina.com/users/start?code=A7SM33LE__) - 原云币团队，经历牛熊，目前世界排名 37
+- [非小号](https://www.feixiaohao.com/) - 币圈综合数据行情平台
