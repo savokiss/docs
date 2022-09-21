@@ -25,6 +25,10 @@ module.exports = {
       { text: 'Home', link: '/' },
       // { text: 'Vue Best Practices', link: 'https://vue-better-practice.savokiss.com' }
     ],
+    socialLinks: [
+      { icon: 'github', link: 'https://github.com/savokiss/docs' },
+      { icon: 'discord', link: 'https://savokiss.com' },
+    ],
     footer: {
       message: 'Released under the MIT License.',
       copyright: 'Copyright © 2019-present savokiss'
