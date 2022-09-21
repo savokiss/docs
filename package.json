@@ -7,8 +7,8 @@
     "doc": "docs"
   },
   "scripts": {
-    "docs": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs"
   },
   "repository": {
     "type": "git",
@@ -21,7 +21,14 @@
   },
   "homepage": "https://github.com/savokiss/docs#readme",
   "dependencies": {
-    "@vuepress/plugin-google-analytics": "^1.5.4",
-    "vuepress": "^1.5.4"
+    "vitepress": "1.0.0-alpha.15",
+    "vue": "^3.2.39"
+  },
+  "pnpm": {
+    "peerDependencyRules": {
+      "ignoreMissing": [
+        "@algolia/client-search"
+      ]
+    }
   }
 }
