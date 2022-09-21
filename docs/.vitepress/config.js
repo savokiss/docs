@@ -64,7 +64,7 @@ module.exports = {
         items: [
           { text: 'JavaScript', link: '/snippets/javascript' },
           { text: 'CSS', link: '/snippets/css' },
-          { text: 'Algroithm', link: '/snippets/algorithm' },
+          { text: 'Algorithm', link: '/snippets/algorithm' },
           { text: 'Vue', link: '/snippets/vue' },
         ]
       },
