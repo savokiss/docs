@@ -1,5 +1,4 @@
 # Docs
-[![Netlify Status](https://api.netlify.com/api/v1/badges/3bf261e4-83ca-4cfe-b821-fa82b7a5675a/deploy-status)](https://app.netlify.com/sites/savo-docs/deploys)
 
 一些有用的文档，包括以下内容：
 
