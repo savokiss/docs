@@ -1,21 +1,12 @@
 module.exports = {
   title: 'Developer Docs',
   description: 'Just some useful documents',
-  plugins: [
-    ['@vuepress/google-analytics', {
-      ga: 'UA-118078150-1'
-    }],
-    ['@vuepress/last-updated', {
-      dateOptions: {
-        hour12: false,
-        timeZone: 'Asia/Shanghai'
-      }
-    }]
-  ],
   head: [
     ['link', { rel: 'icon', href: `/logo.png` }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
-    ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }]
+    ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
+    ['script', {src: 'https://www.googletagmanager.com/gtag/js?id=G-SFSR5RSG46'}],
+    ['script', {}, `G-SFSR5RSG46`]
   ],
   themeConfig: {
     repo: 'savokiss/docs',
